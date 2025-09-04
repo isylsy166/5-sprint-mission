@@ -13,6 +13,8 @@ public interface UserStatusService {
 
   UserStatus find(UUID userStatusId);
 
+  UserStatus findByUserId(UUID userId);
+
   List<UserStatus> findAll();
 
   UserStatus update(UUID userStatusId, UserStatusUpdateRequest request);
