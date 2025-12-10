@@ -1,7 +1,7 @@
 package com.sprint.mission.discodeit.mapper;
 
-import com.sprint.mission.discodeit.dto.data.MessageDto;
-import com.sprint.mission.discodeit.entity.Message;
+import com.sprint.mission.discodeit.domain.message.dto.MessageDto;
+import com.sprint.mission.discodeit.domain.message.entity.Message;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

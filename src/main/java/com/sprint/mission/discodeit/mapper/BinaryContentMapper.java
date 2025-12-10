@@ -1,7 +1,7 @@
 package com.sprint.mission.discodeit.mapper;
 
-import com.sprint.mission.discodeit.dto.data.BinaryContentDto;
-import com.sprint.mission.discodeit.entity.BinaryContent;
+import com.sprint.mission.discodeit.domain.binaryContent.dto.BinaryContentDto;
+import com.sprint.mission.discodeit.domain.binaryContent.entity.BinaryContent;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

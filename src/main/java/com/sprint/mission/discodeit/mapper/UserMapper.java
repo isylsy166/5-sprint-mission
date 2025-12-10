@@ -1,8 +1,8 @@
 package com.sprint.mission.discodeit.mapper;
 
-import com.sprint.mission.discodeit.dto.data.UserDto;
-import com.sprint.mission.discodeit.entity.User;
-import com.sprint.mission.discodeit.security.jwt.JwtRegistry;
+import com.sprint.mission.discodeit.domain.user.dto.UserDto;
+import com.sprint.mission.discodeit.domain.user.entity.User;
+import com.sprint.mission.discodeit.global.security.jwt.JwtRegistry;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.springframework.beans.factory.annotation.Autowired;

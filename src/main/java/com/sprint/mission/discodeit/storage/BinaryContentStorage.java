@@ -1,6 +1,6 @@
 package com.sprint.mission.discodeit.storage;
 
-import com.sprint.mission.discodeit.dto.data.BinaryContentDto;
+import com.sprint.mission.discodeit.domain.binaryContent.dto.BinaryContentDto;
 import java.io.InputStream;
 import java.util.UUID;
 import org.springframework.http.ResponseEntity;

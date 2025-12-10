@@ -1,6 +1,6 @@
 package com.sprint.mission.discodeit.storage.local;
 
-import com.sprint.mission.discodeit.dto.data.BinaryContentDto;
+import com.sprint.mission.discodeit.domain.binaryContent.dto.BinaryContentDto;
 import com.sprint.mission.discodeit.storage.BinaryContentStorage;
 import jakarta.annotation.PostConstruct;
 import java.io.IOException;

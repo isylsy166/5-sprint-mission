@@ -1,12 +1,12 @@
 package com.sprint.mission.discodeit.mapper;
 
-import com.sprint.mission.discodeit.dto.data.ChannelDto;
-import com.sprint.mission.discodeit.dto.data.UserDto;
-import com.sprint.mission.discodeit.entity.Channel;
-import com.sprint.mission.discodeit.entity.ChannelType;
-import com.sprint.mission.discodeit.entity.ReadStatus;
-import com.sprint.mission.discodeit.repository.MessageRepository;
-import com.sprint.mission.discodeit.repository.ReadStatusRepository;
+import com.sprint.mission.discodeit.domain.channel.dto.ChannelDto;
+import com.sprint.mission.discodeit.domain.user.dto.UserDto;
+import com.sprint.mission.discodeit.domain.channel.entity.Channel;
+import com.sprint.mission.discodeit.domain.channel.entity.ChannelType;
+import com.sprint.mission.discodeit.domain.readStatus.entity.ReadStatus;
+import com.sprint.mission.discodeit.domain.message.repository.MessageRepository;
+import com.sprint.mission.discodeit.domain.readStatus.repository.ReadStatusRepository;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;

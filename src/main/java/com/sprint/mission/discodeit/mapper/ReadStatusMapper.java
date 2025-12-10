@@ -1,7 +1,7 @@
 package com.sprint.mission.discodeit.mapper;
 
-import com.sprint.mission.discodeit.dto.data.ReadStatusDto;
-import com.sprint.mission.discodeit.entity.ReadStatus;
+import com.sprint.mission.discodeit.domain.readStatus.dto.ReadStatusDto;
+import com.sprint.mission.discodeit.domain.readStatus.entity.ReadStatus;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

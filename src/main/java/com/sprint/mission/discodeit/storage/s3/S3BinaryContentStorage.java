@@ -1,6 +1,6 @@
 package com.sprint.mission.discodeit.storage.s3;
 
-import com.sprint.mission.discodeit.dto.data.BinaryContentDto;
+import com.sprint.mission.discodeit.domain.binaryContent.dto.BinaryContentDto;
 import com.sprint.mission.discodeit.storage.BinaryContentStorage;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
